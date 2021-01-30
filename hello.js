@@ -17,7 +17,6 @@
     if(ticket == "second"){
       ticketTotal=  newInput *100;
     } 
-    document.getElementById(ticket + "-total").innerText = "$"+ticketTotal
     calculateTotal()
       }
   //total calculation
